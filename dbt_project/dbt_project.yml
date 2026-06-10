@@ -1,0 +1,12 @@
+name: job_market
+version: "1.0.0"
+profile: job_market
+model-paths: ["models"]
+models:
+  job_market:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table

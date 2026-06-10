@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: jobs_db
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5439:5432"
+  superset:
+    image: apache/superset
+    ports:
+      - "8089:8088"
+    environment:
+      SUPERSET_SECRET_KEY: supersecretkey
