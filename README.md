@@ -52,3 +52,21 @@ cd dbt_project && dbt run
 
 ## License
 MIT
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python/Scrapy | Data Scraping |
+| PostgreSQL | Storage |
+| dbt | Transformation |
+| Apache Superset | Visualization |
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python/Scrapy | Data Scraping |
+| PostgreSQL | Storage |
+| dbt | Transformation |
+| Apache Superset | Visualization |
